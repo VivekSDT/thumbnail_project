@@ -37,7 +37,12 @@ thumbnail_project/
 └── README.md           # Project documentation
 ```
 
+---
 
+## 📦 Requirements
+Make sure you have the following installed before running the project:
+- **Python 3.8+** (recommended: Python 3.11 or newer)
+- **pip** (Python package manager)  
 
 ---
 
