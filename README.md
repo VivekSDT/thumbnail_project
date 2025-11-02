@@ -18,22 +18,24 @@ A Python-based multiprocessing system that automatically watches a directory for
 
 ## 🧰 Project Structure
 
+```bash
 thumbnail_project/
 │
-├── producer/ # Input folder for raw images
-├── consumer/ # Output folder for thumbnails
-├── logs/ # Stores log files
+├── producer/           # Input folder for raw images
+├── consumer/           # Output folder for thumbnails
+├── logs/               # Stores log files
 │
-├── main.py # Entry point for the application
-├── producer_module.py # Handles image discovery & batching
-├── consumer_module.py # Processes and saves thumbnails
-├── config_loader.py # Loads configuration from environment
-├── logger_config.py # Configures logging system
+├── main.py             # Entry point for the application
+├── producer_module.py  # Handles image discovery & batching
+├── consumer_module.py  # Processes and saves thumbnails
+├── config_loader.py    # Loads configuration from environment
+├── logger_config.py    # Configures logging system
 │
-├── .env # Environment-specific variables (excluded from git)
-├── sample_env # Template for .env
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
+├── .env                # Environment-specific variables (excluded from git)
+├── sample_env          # Template for .env
+├── requirements.txt    # Python dependencies
+└── README.md           # Project documentation
+```
 
 
 
