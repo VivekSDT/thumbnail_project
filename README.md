@@ -68,11 +68,15 @@ cp sample_env .env
 ---
 
 ## Usage
-1. Place your images inside the producer/ folder.
-2. Run the main script:
+1. Make folders producer/ , consumer/ , logs/
+```bash
+mkdir -p producer consumer logs
+```
+2. Place your images inside the producer/ folder.
+3. Run the main script:
 ```bash
 python main.py
 ```
-3. Thumbnails will be saved in the consumer/ folder.
-4. Logs are written to logs/process.log.
+4. Thumbnails will be saved in the consumer/ folder.
+5. Logs are written to logs/process.log.
 
