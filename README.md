@@ -1,4 +1,4 @@
-# 🖼️ Thumbnail Generator Pipeline
+#  Thumbnail Generator Pipeline
 
 A Python-based multiprocessing system that automatically watches a directory for new images, generates thumbnails, and stores them efficiently — complete with configurable settings, batch processing, and logging.
 
